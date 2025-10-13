@@ -30,10 +30,10 @@ public class RemoveDuplicateLinkedList {
             }
         }
     }
-         public static void main(String[] args) {
+        public static void main(String[] args) {
         RemoveDuplicateLinkedList obj = new RemoveDuplicateLinkedList();
          obj.head = new ListNode(7);
-         ListNode second  = new ListNode(6);
+            ListNode second  = new ListNode(6);
             ListNode third  = new ListNode(6);
             ListNode fourth  = new ListNode(4);
             ListNode fifth  = new ListNode(4);
