@@ -20,7 +20,7 @@ public class REVERSEsll {
             current = current.next;
           }
           System.out.println("null");
-        }
+        } //< -------- MAIN LOGIC IS UNDER ME -------------->
          public ListNode reverse(ListNode head){// 2 arg connected with obj.head
           ListNode current = head;
           ListNode previous = null;
@@ -33,7 +33,7 @@ public class REVERSEsll {
           }
           return previous;
         }
-
+//<------------------------BOILER PLATE ------------------------->
         public static void main(String[] args) {
           REVERSEsll obj = new REVERSEsll();
           obj.head = new ListNode(4);
@@ -53,3 +53,4 @@ public class REVERSEsll {
           obj.display();
         }
       }
+
